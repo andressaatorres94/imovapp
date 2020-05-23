@@ -9,7 +9,7 @@ public class Imovel {
     @NonNull
     @Override
     public String toString() {
-        return  tipo + "- \n Rua: "+ endereco + ", Bairro: " + bairro +", Cidade: " + cidade + " \n - Área: "+tamanhoArea +
-                " - Valor: " + preco + " IPTU " + valorIptu;
+        return  tipo + "- Rua: "+ endereco + ", " + bairro +"\n - Cidade: " + cidade + " \n - Área: "+tamanhoArea +
+                "\n - Valor: " + preco + "\n - IPTU: " + valorIptu;
     }
 }

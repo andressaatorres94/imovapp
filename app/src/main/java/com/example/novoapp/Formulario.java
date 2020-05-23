@@ -54,8 +54,6 @@ public class Formulario extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 salvar();
-                Toast.makeText(Formulario.this, "Imóvel cadastrado com sucesso.",Toast.LENGTH_LONG).show();
-
             }
         });
 
@@ -114,6 +112,7 @@ public class Formulario extends AppCompatActivity {
             reference = database.getReference();
             reference.child("imoveis").push().setValue(imovel);
 
+            Toast.makeText(Formulario.this, "Imóvel cadastrado com sucesso.",Toast.LENGTH_LONG).show();
             finish();
 
         }

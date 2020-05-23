@@ -32,7 +32,6 @@ public class NovoUsuario extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novo);
 
-
         etNome = findViewById(R.id.edtNome);
         etConfSenha = findViewById(R.id.edtConfSenha);
         etSenha = findViewById(R.id.edtPassword);

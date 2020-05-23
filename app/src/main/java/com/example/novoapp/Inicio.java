@@ -51,6 +51,7 @@ public class Inicio extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         btnSair = findViewById(R.id.btnSair);
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,14 +74,12 @@ public class Inicio extends AppCompatActivity {
                 return true;
             }
         });
-
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 sair();
             }
         });
-
     }
 
     //Fazer o logout
