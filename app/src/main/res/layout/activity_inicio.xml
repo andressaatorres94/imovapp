@@ -9,8 +9,7 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -20,16 +19,6 @@
             app:popupTheme="@style/AppTheme.PopupOverlay"
             />
     </com.google.android.material.appbar.AppBarLayout>
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="20dp"
-        app:srcCompat="@drawable/inicio" />
-
 
     <include layout="@layout/content_inicio" />
 
@@ -52,7 +41,5 @@
         android:background="#00F0ECF4"
         android:textColor="#E3F8F6"
         android:textSize="17sp" />
-
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

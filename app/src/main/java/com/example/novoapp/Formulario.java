@@ -1,7 +1,9 @@
 package com.example.novoapp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -52,7 +54,8 @@ public class Formulario extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 salvar();
-                Toast.makeText(Formulario.this, "Imovel cadastrado com sucesso.",Toast.LENGTH_LONG).show();
+                Toast.makeText(Formulario.this, "Imóvel cadastrado com sucesso.",Toast.LENGTH_LONG).show();
+
             }
         });
 
@@ -110,6 +113,9 @@ public class Formulario extends AppCompatActivity {
             database = FirebaseDatabase.getInstance();
             reference = database.getReference();
             reference.child("imoveis").push().setValue(imovel);
+
+            finish();
+
         }
     }
 }
