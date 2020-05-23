@@ -85,10 +85,17 @@ public class Inicio extends AppCompatActivity {
 
     //Fazer o logout
     private void sair(){
-        startActivity(new Intent(this, MainActivity.class));
-        Toast.makeText(Inicio.this, "Usuário desconectado", Toast.LENGTH_SHORT).show();
-        auth.signOut();
-        finish();
+        AlertDialog.Builder alerta = new AlertDialog.Builder(Inicio.this);
+        alerta.setMessage("Deseja sair do ImovApp?");
+        alerta.setNeutralButton("Não", null);
+        alerta.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                auth.signOut();
+                finish();
+            }
+        });
+        alerta.show();
     }
 
     //Deletar imovel
