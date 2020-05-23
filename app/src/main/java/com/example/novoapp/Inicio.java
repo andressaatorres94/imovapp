@@ -85,9 +85,9 @@ public class Inicio extends AppCompatActivity {
 
     //Fazer o logout
     private void sair(){
-        auth.signOut();
         startActivity(new Intent(this, MainActivity.class));
         Toast.makeText(Inicio.this, "Usuário desconectado", Toast.LENGTH_SHORT).show();
+        auth.signOut();
         finish();
     }
 
