@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1058692451004",
+    "firebase_url": "https://imovapp20.firebaseio.com",
+    "project_id": "imovapp20",
+    "storage_bucket": "imovapp20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058692451004:android:8f0b739e44e43c029d5eb9",
+        "android_client_info": {
+          "package_name": "com.example.novoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058692451004-qv0nir095el5s2cismd59ki9dfcplpjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYS3Bz17W4yP63KWxlBR3L8NifmeMgYT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058692451004-qv0nir095el5s2cismd59ki9dfcplpjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

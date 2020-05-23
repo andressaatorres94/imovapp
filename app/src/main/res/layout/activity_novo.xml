@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".NovoUsuario">
+
+    <ImageView
+        android:id="@+id/ivCadastroUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/criar" />
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="382dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:background="#11FFFFFF"
+        android:orientation="vertical"
+        android:paddingTop="26dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edtNome"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtNome"
+                style="@style/login"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtEmail"
+                android:inputType="textEmailAddress"
+                style="@style/login" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtCadastroSenha"
+                android:inputType="textPassword"
+                style="@style/login" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/edtConfSenha"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtConfirmar"
+                android:inputType="textPassword"
+                style="@style/login"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConfirmar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0CFFFFFF"
+                android:text="@string/btnConfirmar"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#0CFFFFFF"
+                android:text="@string/btnCancelar"
+                android:textColor="#ffff"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Formulario"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tvCodigoImovel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTitulo"
+            android:textSize="24sp"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            />
+        <Spinner
+            android:id="@+id/spTipoImovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etEndImovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etEndImovel"
+            android:textColorHint="#ffff"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <EditText
+            android:id="@+id/etBairroImovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etBairroImovel"
+            android:textColorHint="#ffff"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <EditText
+            android:id="@+id/etCidadeImovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etCidadeImovel"
+            android:textColorHint="#ffff"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <EditText
+            android:id="@+id/etAreaImovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etAreaImovel"
+            android:textColorHint="#ffff"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <RadioGroup
+            android:id="@+id/rgGrupoImovel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblAlugar"
+                android:id="@+id/rbAlugarImovel"
+                android:textColor="#ffff"
+                style="@style/formulario"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblVender"
+                android:textColor="#ffff"
+                android:id="@+id/rbVenderImovel"
+                style="@style/formulario"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etValorImovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etValorImovel"
+            android:textColorHint="#ffff"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <EditText
+            android:id="@+id/etIptuImovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etIptuImovel"
+            android:textColorHint="#ffff"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/btnSalvar"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:background="#00F0ECF4"
+            />
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/btnVoltar"
+            android:background="#00F0ECF4"
+            android:textColor="#E3F8F6"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+</ScrollView>

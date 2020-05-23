@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ImovApp</string>
+    <string name="edtLogin">  E-mail</string>
+    <string name="edtSenha">  Senha</string>
+
+    <string name="edtNome">Nome</string>
+    <string name="edtEmail">E-mail (para login)</string>
+    <string name="edtCadastroSenha">Senha</string>
+    <string name="edtConfirmar">Confirmar senha</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnConfirmar">Confirmar</string>
+
+    <string name="btnlogin">ENTRAR</string>
+    <string name="btnCadastrar">Cadastrar usuario</string>
+    <string name="tvPergunta">Ainda não tem conta?</string>
+
+    <string name="btnSair">Sair</string>
+
+
+
+
+    <string-array name="spTipoImovel">
+        <item>Selecione tipo de imóvel...</item>
+        <item>Casa</item>
+        <item>Apartamento</item>
+
+    </string-array>
+
+
+    <string name="etEndImovel">Endereço</string>
+    <string name="etBairroImovel">Bairro</string>
+    <string name="etCidadeImovel">Cidade</string>
+    <string name="etAreaImovel">Área (m²)</string>
+    <string name="edtAluguelVenda">Para (Alugar | Vender)</string>
+    <string name="etValorImovel">Valor (R$)</string>
+    <string name="etIptuImovel">IPTU (R$)</string>
+    <string name="btnSalvar">SALVAR</string>
+    <string name="tvTitulo">Cadastrar imovel</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="lblAlugar">Alugar</string>
+    <string name="lblVender">Vender</string>
+</resources>
